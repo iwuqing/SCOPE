@@ -10,12 +10,6 @@ from skimage.metrics import structural_similarity, \
                             peak_signal_noise_ratio
 
 
-def normalization(data):
-    v_max = np.max(data)
-    v_min = np.min(data)
-    return (data-v_min) / (v_max-v_min)
-
-
 def build_coordinate_train(L, angle):
     angle_rad = np.deg2rad(angle)
     trans_matrix = np.array(

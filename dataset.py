@@ -10,7 +10,6 @@ import numpy as np
 import SimpleITK as sitk
 from torch.utils import data
 
-
 class TestData(data.Dataset):
     def __init__(self, theta, L):
         # generate views
@@ -48,7 +47,6 @@ class TrainData(data.Dataset):
 
         self.projections_lines = np.array(self.projections_lines)
         self.rays = np.array(self.rays)
-        self.index_max = L - self.sample_N
 
     def __len__(self):
         return len(self.projections_lines)
@@ -58,8 +56,7 @@ class TrainData(data.Dataset):
         projection_l = self.projections_lines[item]     # (L, )
         ray = self.rays[item]   # (L, L, 2)
         # sample ray
-        index = np.random.randint(0, self.index_max, size=1)[0]
-        projection_l_sample = projection_l[index:index+self.sample_N]  # (sample_N)
-        ray_sample = ray[index:index+self.sample_N]    # (sample_N, L, 2)
+        sample_indices = np.random.choice(len(projection_l), self.sample_N, replace=False)
+        projection_l_sample = projection_l[sample_indices]  # (sample_N)
+        ray_sample = ray[sample_indices]    # (sample_N, L, 2)
         return ray_sample, projection_l_sample
-

@@ -51,7 +51,15 @@ This will train the model for the input sinogram (`sin_pre_80_90.nii`). The pre-
 
 Next, navigate to `./script_matlab` and use MATLAB to run gene_img.m to recover the final CT image, which will be stored in `./output/img`.
 
-## 4. Citation
+## 4. Evaluation
+
+To qualitatively evalute the result, navigate to `./` and run the following comman in your terminal:
+```shell
+python eval.py
+```
+You will otain PSNR and SSIM values for the reconstruced image (`./output/img/scope_sin_pre_80_90.nii`). In our provied data, PSNR and SSIM are 41.03 dB and 0.9829, respectively.
+
+## 5. Citation
 
 If you find our work useful in your research, please cite:
 

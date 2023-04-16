@@ -32,7 +32,7 @@ if __name__ == '__main__':
     epoch = 5000
     gpu = 0
     summary_epoch = 500
-    sample_N = 8
+    sample_N = 10
     batch_size = 3
     scale = int(720 / in_view)  # 720/theta
     # the size of each profile in sinogram.
