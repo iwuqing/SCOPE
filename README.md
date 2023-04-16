@@ -57,7 +57,7 @@ To qualitatively evalute the result, navigate to `./` and run the following comm
 ```shell
 python eval.py
 ```
-You will otain PSNR and SSIM values for the reconstruced image (`./output/img/scope_sin_pre_80_90.nii`). In our provied data, PSNR and SSIM are 41.03 dB and 0.9829, respectively.
+This will compute PSNR and SSIM values for the reconstruced image (`./output/img/scope_sin_pre_80_90.nii`). PSNR and SSIM are respectively 41.03 dB and 0.9829 for our provied result. 
 
 ## 5. Citation
 
