@@ -12,6 +12,7 @@ To run this project, you will need the following packages:
 ## 2. File Tree
 
 ```text
+SCOPE
 │  config.json	# configuration file for hash encoding
 │  dataset.py
 │  eval.py		# evaluates the result
