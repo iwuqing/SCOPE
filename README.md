@@ -49,7 +49,7 @@ To train the model from scratch, navigate to `./` and run the following command 
 ```shell
 python train.py
 ```
-This will train the model for the input sinogram (`90_sino.nii`). The pre-trained model and the generated DN sinogram will be stored in `./model`.
+This will train the model for the input sinogram (`90_sino.nii`). The pre-trained model will be stored in `./model`.
 
 Next, go to `./` and run the following command in your terminal for reprojting DV sinogram:
 ```shell
