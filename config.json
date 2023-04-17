@@ -1,4 +1,20 @@
-{
+{	
+	"file": {
+		"sv_sino_in_path": "data/90_sino.nii",
+		"dv_sino_out_path": "output/sino",
+		"model_path": "model/checkpoint.pth",
+		"num_sv": 90,
+		"num_dv": 720,
+		"L": 367
+	},
+	"train":{
+		"lr": 1e-3,
+		"epoch": 5000,
+		"gpu": 0,
+		"summary_epoch": 500,
+		"sample_N": 10,
+		"batch_size": 3
+	},
 	"encoding": {
 		"otype": "Grid",
 		"type": "Hash",

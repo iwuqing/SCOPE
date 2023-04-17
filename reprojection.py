@@ -10,4 +10,4 @@ import scope
 
 if __name__ == '__main__':
     config_path = 'config.json'
-    scope.train(config_path=config_path)
+    scope.reprojection(config_path=config_path)
