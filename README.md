@@ -1,6 +1,6 @@
 # SCOPE
 
-This repository contains the PyTorch implementation of our manuscript "Self-Supervised Coordinate Projection Network for Sparse-View Computed Tomography". [[ArXiv](https://arxiv.org/abs/2209.05483)]
+This repository contains the PyTorch implementation of our manuscript "Self-Supervised Coordinate Projection Network for Sparse-View Computed Tomography". [[ArXiv](https://arxiv.org/abs/2209.05483)] [[IEEE Xplore](https://ieeexplore.ieee.org/document/10143286)]
 
 ## 1.  Main Running Environment
 
