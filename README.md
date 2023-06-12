@@ -72,12 +72,13 @@ This will compute PSNR and SSIM values for the reconstruced image (`./output/img
 If you find our work useful in your research, please cite:
 
 ```
-@misc{wu2022selfsupervised,
-      title={Self-Supervised Coordinate Projection Network for Sparse-View Computed Tomography}, 
-      author={Qing Wu and Ruimin Feng and Hongjiang Wei and Jingyi Yu and Yuyao Zhang},
-      year={2022},
-      eprint={2209.05483},
-      archivePrefix={arXiv},
-      primaryClass={eess.IV}
-}
+@ARTICLE{10143286,
+  author={Wu, Qing and Feng, Ruimin and Wei, Hongjiang and Yu, Jingyi and Zhang, Yuyao},
+  journal={IEEE Transactions on Computational Imaging}, 
+  title={Self-Supervised Coordinate Projection Network for Sparse-View Computed Tomography}, 
+  year={2023},
+  volume={9},
+  number={},
+  pages={517-529},
+  doi={10.1109/TCI.2023.3281196}}
 ```
