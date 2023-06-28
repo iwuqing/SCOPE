@@ -14,11 +14,11 @@ To run this project, you will need the following packages:
 ```text
 SCOPE
 │  config.json          # configuration file.
-│  dataset.pyc
+│  dataset.py
 │  eval.py              # evaluates the reconstruted CT result.
 │  README.md
 │  reprojection.py      # generates DV sinogram via the fine-trained MLP.
-│  scope.pyc
+│  scope.py
 │  train.py             # trains the MLP network.
 │  utils.py
 │
