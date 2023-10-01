@@ -67,7 +67,11 @@ python eval.py
 ```
 This will compute PSNR and SSIM values for the reconstruced image (`./output/img/scope_recon.nii`). PSNR and SSIM are respectively 40.45 dB and 0.9794 for our provied result. 
 
-## 5. Citation
+## 5. License
+
+This code is available for non-commercial research and education purposes only. It is not allowed to be reproduced, exchanged, sold, or used for profit.
+
+## 6. Citation
 
 If you find our work useful in your research, please cite:
 
